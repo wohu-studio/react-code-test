@@ -8,13 +8,13 @@
 - 除了 `id` field 之外，展示 `sample-data.json` 中的所有数据。
 - 在表格中添加一个 `Actions` 列，`Actions` 列展示一个文字为 `Delete` 的按钮
 - 用户点击 `Delete` 按钮后弹出一个 confirm 提示，提供 yes / no 的选项供用户选择。
-- 不需要调用任何 API，只需在用户点击 yes 后在 console 中打印出相关信息（如该订单的 id）就行
-- bonus：用户点击了删除，并点击 yes 后，将该行从表格中移除
+- 不需要调用任何 API，只需在用户点击 yes 后在 console 中打印出相关信息（如该订单的 id）就行。
+- bonus：在用户点击了删除并点击 yes 后，将该行从表格中移除。
 - 不需要任何的额外 style
 
 ## Tips:
 
-- 已经在 package.json 中添加了 ant desgin，并引入了 ant design 的相关 css。只需要安装 dependencies 之后可以直接调用。
+- 已经在 package.json 中添加了 ant desgin，并引入了 ant design 的相关 css。安装 dependencies 之后可以直接调用。
 - 可以用不同文件夹如 `components` 整理不同的文件。
 - 在 ant design `Table` 组件的 [columns API](https://ant.design/components/table/#Column) 中，可以通过 `render` API 在单元格内渲染自定义的组件。
 
@@ -29,5 +29,4 @@
 
 ## 提交方式：
 
-- 你可以 clone 本 repo，然后将你的代码保存到 github 并把 repo 地址发送给我们 hello@wohu.studio
-- 你可以 fork 本 repo，然后通过 Pull Request 的方式提交到本 repo
+- 你可以 clone 本 repo，然后将你的代码打包发送给 hello@wohu.studio，在邮件主题中注明你的名字就好~
