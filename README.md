@@ -29,4 +29,10 @@
 
 ## 提交方式：
 
-- 你可以 clone 本 repo，然后将你的代码打包发送给 hello@wohu.studio，在邮件主题中注明你的名字就好~
+你可以 clone 本 repo，然后将你的代码打包发送我们。由于有小伙伴反应发送公司邮箱的时候会遇到不安全提示，公司邮箱邮件也出现在了垃圾邮箱里，大家可以选择以下邮箱的任意一个发送：
+
+- hello@wohu.studio
+- unicar9@gmail.com
+- xwangl213@gmail.com
+- xwangl520@foxmail.com
+  在邮件主题中注明你的名字就好~
