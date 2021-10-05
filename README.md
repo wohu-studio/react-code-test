@@ -1,34 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 任务简介：
 
-## Getting Started
+在这个 code test 中，希望大家利用 ant design 制作一个简单的组件。同时调用
 
-First, run the development server:
+## 主要任务：
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- 在 `pages/index.js` 中，用表格的方式展示 `sample-data.json` 中的数据
+- 除了 `id` field 之外，展示 `sample-data.json` 中的所有数据
+- 在表格中添加一个 `Actions` 列，`Actions` 列展示一个文字为 `Delete` 的按钮
+- 用户点击按钮之后弹出 confirm 提示，提供 yes / no 的选项供用户选择。
+- 不需要调用任何 API，只需在用户点击 yes 后在 console 中打印出相关信息（如该订单的 id）就行
+- 不需要任何的额外 style
+- bonus：将点击了删除，并点击 yes 确定后，将该行从表格中移除
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tips:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- 已经在 package.json 中添加了 ant desgin，并引入了 ant design 的相关 css，可以直接调用。
+- 可以用不同文件夹如 `components` 整理不同的文件。
+- 在 ant design `Table` 组件的 [columns API](https://ant.design/components/table/#Column) 中，可以通过 `render` API 在单元格内渲染自定义的组件。
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## 参考文档：
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- [next.js](https://nextjs.org/)
+- [Ant Design](https://ant.design/)
+- 可能用到的 ant design 组件：
+- [Table](https://ant.design/components/table/)
+- [Popconfirm](https://ant.design/components/popconfirm)
+- [Button](https://ant.design/docs/spec/buttons#header)
 
-## Learn More
+## 提交方式：
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- 你可以 clone 本 repo，然后将你的代码保存到 github 并把 repo 地址发送给我们 hello@wohu.studio
+- 你可以 fork 本 repo，然后通过 Pull Request 的方式提交到本 repo
