@@ -7,7 +7,7 @@
 - 在 `pages/index.js` 中，用表格的方式展示 `sample-data.json` 中的数据
 - 除了 `id` field 之外，展示 `sample-data.json` 中的所有数据。
 - 在表格中添加一个 `Actions` 列，`Actions` 列展示一个文字为 `Delete` 的按钮
-- 用户点击按钮之后弹出 confirm 提示，提供 yes / no 的选项供用户选择。
+- 用户点击 `Delete` 按钮后弹出一个 confirm 提示，提供 yes / no 的选项供用户选择。
 - 不需要调用任何 API，只需在用户点击 yes 后在 console 中打印出相关信息（如该订单的 id）就行
 - bonus：用户点击了删除，并点击 yes 后，将该行从表格中移除
 - 不需要任何的额外 style
